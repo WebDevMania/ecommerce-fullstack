@@ -1,0 +1,108 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(106, 106, 194);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 1px solid rgb(160, 146, 146);
+    height: 400px;
+    width: 325px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
+
+.wrapper h2{
+    margin-bottom: 20px;
+    color: rgb(58, 54, 54);
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+.wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+}
+
+.wrapper form input{
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    border: 2px solid rgb(173, 171, 171);
+    border-radius: 12px;
+    background-color: #f4f4f4;
+}
+
+.wrapper form input:focus{
+    outline: none;
+    border-width: 2px;
+    border-color: #333;
+}
+
+.submitBtn{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+    background-color: rgb(106, 106, 194);
+    color: #fff;
+    cursor: pointer;
+    margin: 6px 0;
+    margin-bottom: 3px;
+}
+
+.submitBtn:hover{
+   border-color: rgb(106, 106, 194);
+   background-color: #fff;
+   color: rgb(106, 106, 194);
+}
+
+.wrapper form a{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.register{
+    width: 100px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.2rem;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.register:hover{
+    color: #666;
+}
+
+.errorMessage{
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #f00;
+    color: #fff;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}

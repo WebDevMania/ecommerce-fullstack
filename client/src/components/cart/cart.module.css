@@ -1,0 +1,146 @@
+.container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  /* width: 400px;
+  min-height: 600px;
+  overflow-y: auto; */
+  -webkit-box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px -5px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  z-index: 3;
+}
+
+.wrapper {
+  max-height: 500px;
+  padding: 1.5rem 2.5rem;
+  width: 375px;
+  overflow-y: auto;
+  position: sticky;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.cartItem {
+  display: flex;
+  gap: 10px;
+  margin: 0.5rem 0;
+  width: 250px;
+  position: relative;
+}
+
+.priceAndTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productTitle {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.price > span {
+  font-size: 15px;
+}
+
+.img {
+  height: 90px;
+  object-fit: cover;
+}
+
+.trashIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  cursor: pointer;
+  transition: 250ms all ease-in-out;
+}
+
+.trashIcon:hover {
+  transform: translateY(-2px);
+}
+
+.subtotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  font-size: 20px;
+}
+
+.checkoutBtn {
+  margin: 1rem 0;
+  text-decoration: none;
+  background-color: rgb(57, 57, 206);
+  color: #fff;
+  border-radius: 12px;
+  width: 175px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 150ms all;
+}
+
+.checkoutBtn:hover {
+  color: rgb(57, 57, 206);
+  background-color: #fff;
+  border-color: rgb(57, 57, 206);
+}
+
+.resetCart {
+  position: sticky;
+  bottom: 0.25rem;
+  left: 0.25rem;
+  color: #f00;
+  font-size: 19px;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+
+.subtotal {
+  margin-top: 2.5rem;
+}
+
+.noProducts {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.removeIcon {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 150ms all ease-in-out;
+}
+
+.removeIcon:hover {
+  fill: #555;
+}
+
+/* dollar sign */
+.totalPrice span {
+  font-size: 16px;
+}

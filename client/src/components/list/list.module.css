@@ -1,0 +1,29 @@
+.container{
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.noProductsMsg{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}

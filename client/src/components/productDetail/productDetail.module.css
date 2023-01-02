@@ -1,0 +1,192 @@
+.container {
+  margin-top: 30px;
+  padding: 1rem 2.5rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  height: calc(100vh - 105px);
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+/* left */
+.left {
+  flex: 1;
+  display: flex;
+  gap: 25px;
+}
+
+.images {
+  display: flex;
+  gap: 25px;
+}
+
+.firstPhoto,
+.secondPhoto {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.mainImg {
+  height: 500px;
+  width: 450px;
+  object-fit: cover;
+}
+
+/* right */
+.right {
+  flex: 1;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.desc {
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.price {
+  color: rgb(59, 59, 216);
+  font-size: 22px;
+}
+
+.price > span {
+  font-size: 18px;
+}
+
+.quantity {
+  margin: 1.5rem 0;
+}
+
+.minusBtn,
+.plusBtn {
+  height: 45px;
+  width: 45px;
+  border: 1px solid #333;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: green;
+  font-size: 20px;
+}
+
+.minusBtn:hover,
+.plusBtn:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.quantityNumber {
+  margin: 0 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.addToCartBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(71, 71, 199);
+  color: #fff;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  margin: 3rem 0;
+  margin-bottom: 2.5rem;
+}
+
+.addToCartBtn:hover {
+  border-color: rgb(71, 71, 199);
+  background-color: #fff;
+  color: rgb(71, 71, 199);
+  cursor: pointer;
+}
+
+.addToCartBtn:hover > .cartIcon {
+  background-color: #ffff;
+}
+
+.cartIcon {
+  background-color: rgb(71, 71, 199);
+}
+
+.wishlistCompareBtns {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.addToWishlist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.addToCompare {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.review {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.review span {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.review .stars {
+  font-size: 18px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.additionalInfo {
+  margin-top: 30px;
+}
+
+.additionalInfo > hr {
+  width: 400px;
+  color: #999;
+  margin: 0.75rem 0;
+}
+
+.additionalInfo > hr:first-child {
+  margin: 40px 0;
+}
+
+.additionalInfo > p {
+  font-weight: 500;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #777;
+}
